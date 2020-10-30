@@ -12,6 +12,18 @@ body{
   background: url('../img/tile.jpg') top left repeat;
 }
 
+p.lead{
+  font-weight: normal;
+}
+
+p{
+  margin: 0 0 15px;
+}
+
+img{
+  max-width: 100%;
+}
+
 h1{
   font-size: :3em;
 }
@@ -28,13 +40,70 @@ h4{
   font-size: 18px;
 }
 
+a:link, a:visited{
+  color: #dd5638;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #cd302c;
+}
+
+button, input, .btn, a.btn{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+}
+
+section h2{
+  margin: 20px 0 40px;
+}
+
+section h2 small{
+  font-size: 18px;
+  color: grey;
+  padding: 3px;
+}
+
+section h3 small{
+  font-size: 18px;
+  color: grey;
+  padding: 3px;
+}
+
+section h5{
+  margin: 30px 0 10px;
+}
+
+.section-header{
+  text-align: center;
+}
+
 .btn{
   font-weight: bold;
+}
+
+button.btn-focus{
+  outline: none !important;
 }
 
 .btn-danger{
   border-color: #DD5638 !important;
   border-collapse: #D95131 !important;
+}
+
+.btn-success{
+  background: #79b044;
+  border: none;
+}
+
+.btn-success:hover{
+  background: #6a9b3d;
+  border-color: #6a9b3d;
+}
+
+.modal-content{
+  background: url('../img/tile.jpg');
 }
 
 #hero{
@@ -97,3 +166,177 @@ h4{
   font-weight: bold;
   display: block;
 }
+
+#optin{
+  background: #3e4249;
+  padding: 20px 0;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  text-rendering: optimixelegibility;
+  font-size: 1.2em;
+}
+
+#optin p{
+  margin: 7px 0 0 0;
+}
+
+#boost-income{
+  margin-top: 80px;
+  
+}
+
+#who-benefits{
+  margin-top: 80px;
+  background-color: #fff;
+}
+
+#course-features{
+  padding-top: 80px;
+  background-color: #3e4249;
+  color: #fff;
+}
+
+#project-features{
+  margin-top: 80px;
+  text-align: center;
+}
+
+#video-feature{
+  background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding-left: 18%;
+}
+
+#instructor{
+  background: #fff url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+#instructor .num{
+  display: table;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  background: #dd5638;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding: 10px;
+  margin: 10px;
+}
+
+#instructor .num .num-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#instructor .num span{
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#kudos {
+	text-align: center;
+}
+
+.testimonial {
+	margin-bottom: 60px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+}
+
+#signup{
+  text-align: center;
+  background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 140px 0;
+}
+
+#signup h2{
+  font-weight: normal;
+}
+
+#signup h2 strong{
+  border-bottom: solid 2px #dd5638;
+}
+
+footer{
+  background: #3e4249;
+  color: #fff;
+  padding: 20px 0 10px;
+  font-size: 13px;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a:link, footer a:visited{
+  color: #fff;
+}
+
+footer a:hover{
+  color: #dd5638;
+  border-bottom: none;
+}
+
+footer li.signup-link a:hover{
+  font-weight: bold
+}
+
+/*CUSTOM ICONS*/
+i.ci{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: url('../img/icon-sprite.png')  no-repeat;
+}
+
+.ci.ci-computer{
+  background-position: 0 0;
+}
+
+.ci.ci-watch{
+  background-position: -40px 0;
+}
+
+.ci.ci-calendar{
+  background-position: -80px 0;
+}
+
+.ci.ci-community{
+  background-position: -120px 0;
+}
+
+.ci.ci-instructor{
+  background-position: -160px 0;
+}
+
+.ci.ci-device{
+  background-position: -200px 0;
+}
+
+.badge.social{
+  background: #ccc;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 42px;
+  margin: 20px 5px 20px 0;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
